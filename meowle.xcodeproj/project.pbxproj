@@ -55,7 +55,7 @@
 		F9CD5FC22BFCDAB10024A2E8 /* SettignsPage.swift in Sources */ = {isa = PBXBuildFile; fileRef = F9CD5FC12BFCDAB10024A2E8 /* SettignsPage.swift */; };
 		F9CD5FC42BFCDBB10024A2E8 /* TabBarElement.swift in Sources */ = {isa = PBXBuildFile; fileRef = F9CD5FC32BFCDBB10024A2E8 /* TabBarElement.swift */; };
 		F9CD5FC62BFCDF2C0024A2E8 /* CatProfileTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F9CD5FC52BFCDF2C0024A2E8 /* CatProfileTests.swift */; };
-		F9CD5FC82BFCE16D0024A2E8 /* CatProfilePage.swift in Sources */ = {isa = PBXBuildFile; fileRef = F9CD5FC72BFCE16D0024A2E8 /* CatProfilePage.swift */; };
+		F9CD5FCA2BFD12580024A2E8 /* CatProfilePage.swift in Sources */ = {isa = PBXBuildFile; fileRef = F9CD5FC92BFD12580024A2E8 /* CatProfilePage.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -118,13 +118,13 @@
 		9CFC75182B9751E00069705F /* AuthViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthViewController.swift; sourceTree = "<group>"; };
 		9CFC751A2B9758020069705F /* SettingsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsViewController.swift; sourceTree = "<group>"; };
 		DFF3AA313511264F58766A50 /* Pods-meowle-meowleUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-meowle-meowleUITests.release.xcconfig"; path = "Target Support Files/Pods-meowle-meowleUITests/Pods-meowle-meowleUITests.release.xcconfig"; sourceTree = "<group>"; };
-		F9CD5FBA2BFCCF500024A2E8 /* AuthUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthUITests.swift; sourceTree = SOURCE_ROOT; };
-		F9CD5FBC2BFCD1E60024A2E8 /* SearchUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchUITests.swift; sourceTree = SOURCE_ROOT; };
-		F9CD5FBF2BFCD4AA0024A2E8 /* SearchResultsPage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchResultsPage.swift; sourceTree = SOURCE_ROOT; };
-		F9CD5FC12BFCDAB10024A2E8 /* SettignsPage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettignsPage.swift; sourceTree = SOURCE_ROOT; };
-		F9CD5FC32BFCDBB10024A2E8 /* TabBarElement.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabBarElement.swift; sourceTree = SOURCE_ROOT; };
-		F9CD5FC52BFCDF2C0024A2E8 /* CatProfileTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CatProfileTests.swift; sourceTree = SOURCE_ROOT; };
-		F9CD5FC72BFCE16D0024A2E8 /* CatProfilePage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CatProfilePage.swift; sourceTree = SOURCE_ROOT; };
+		F9CD5FBA2BFCCF500024A2E8 /* AuthUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = AuthUITests.swift; path = meowleUITests/Tests/homework/AuthUITests.swift; sourceTree = SOURCE_ROOT; };
+		F9CD5FBC2BFCD1E60024A2E8 /* SearchUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = SearchUITests.swift; path = meowleUITests/Tests/homework/SearchUITests.swift; sourceTree = SOURCE_ROOT; };
+		F9CD5FBF2BFCD4AA0024A2E8 /* SearchResultsPage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = SearchResultsPage.swift; path = meowleUITests/Tests/homework/PageObject/SearchResultsPage.swift; sourceTree = SOURCE_ROOT; };
+		F9CD5FC12BFCDAB10024A2E8 /* SettignsPage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = SettignsPage.swift; path = meowleUITests/Tests/homework/PageObject/SettignsPage.swift; sourceTree = SOURCE_ROOT; };
+		F9CD5FC32BFCDBB10024A2E8 /* TabBarElement.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = TabBarElement.swift; path = meowleUITests/Tests/homework/PageObject/TabBarElement.swift; sourceTree = SOURCE_ROOT; };
+		F9CD5FC52BFCDF2C0024A2E8 /* CatProfileTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = CatProfileTests.swift; path = meowleUITests/Tests/homework/CatProfileTests.swift; sourceTree = SOURCE_ROOT; };
+		F9CD5FC92BFD12580024A2E8 /* CatProfilePage.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CatProfilePage.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -318,10 +318,10 @@
 		F9CD5FBE2BFCD4780024A2E8 /* PageObject */ = {
 			isa = PBXGroup;
 			children = (
+				F9CD5FC92BFD12580024A2E8 /* CatProfilePage.swift */,
 				F9CD5FBF2BFCD4AA0024A2E8 /* SearchResultsPage.swift */,
 				F9CD5FC12BFCDAB10024A2E8 /* SettignsPage.swift */,
 				F9CD5FC32BFCDBB10024A2E8 /* TabBarElement.swift */,
-				F9CD5FC72BFCE16D0024A2E8 /* CatProfilePage.swift */,
 			);
 			path = PageObject;
 			sourceTree = "<group>";
@@ -545,7 +545,7 @@
 				F9CD5FC62BFCDF2C0024A2E8 /* CatProfileTests.swift in Sources */,
 				F9CD5FBD2BFCD1E60024A2E8 /* SearchUITests.swift in Sources */,
 				F9CD5FC02BFCD4AA0024A2E8 /* SearchResultsPage.swift in Sources */,
-				F9CD5FC82BFCE16D0024A2E8 /* CatProfilePage.swift in Sources */,
+				F9CD5FCA2BFD12580024A2E8 /* CatProfilePage.swift in Sources */,
 				37A60C072BCA8A8600B9C499 /* AddNewCatUITests.swift in Sources */,
 				F9CD5FBB2BFCCF500024A2E8 /* AuthUITests.swift in Sources */,
 				37DCE6C62BC57EBA00710D90 /* MeowleSearchCatUITests.swift in Sources */,
